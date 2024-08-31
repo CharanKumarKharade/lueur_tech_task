@@ -1,0 +1,40 @@
+/* src/App.css */
+.user-form,
+.user-table {
+  margin: 20px;
+  padding: 10px;
+}
+
+.user-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-form input,
+.user-form select,
+.user-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+}
+
+@media (max-width: 600px) {
+  .user-table {
+    font-size: 12px;
+  }
+}
